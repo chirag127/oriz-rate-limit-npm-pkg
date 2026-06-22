@@ -3,3 +3,8 @@ dist
 .env
 .DS_Store
 *.log
+
+# env (synced via sops + age)
+.env.local
+.env.*.local
+.sops-age-key.txt
